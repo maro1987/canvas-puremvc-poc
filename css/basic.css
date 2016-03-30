@@ -1,0 +1,52 @@
+HTML,BODY
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family:'SkyScreen';
+}
+
+.background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1000;
+    /*background: -webkit-radial-gradient(top, rgb(20, 61, 116), rgb(0, 0, 0));*/
+    background-image: url('../assets/img/bg.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+@font-face {
+    font-family: 'SkyScreen';
+    src: url('../assets/fonts/SkyScreenRegular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SkyScreen';
+    src: url('../assets/fonts/SkyScreenBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
